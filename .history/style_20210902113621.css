@@ -137,7 +137,7 @@ header i{
     display: flex;
     align-items: center;
     border-top: 1px solid #bfbfbf;
-    justify-content: space-between;
+    justify-content: center;
 }
 .bottom-details .column{
     width: 100%;

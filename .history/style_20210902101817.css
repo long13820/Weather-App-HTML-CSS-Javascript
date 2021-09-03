@@ -34,11 +34,9 @@ header i{
     margin-right: 8px;
 }
 .wrapper .input-part{
-    display: none;
     margin: 20px 25px 30px;
 }
 .input-part .info-txt{
-    display: none;
     font-size: 17px;
     text-align: center;
     padding: 12px 7px;
@@ -46,13 +44,11 @@ header i{
     margin-bottom: 15px;
 }
 .info-txt.error{
-    display: block;
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 .info-txt.pending{
-    display: block;
     color: #0c5460;
     background: #d1ecf1;
     border: 1px solid #bee5eb;
@@ -69,9 +65,7 @@ header i{
     text-align: center;
     border: 1px solid #bfbfbf;
 }
-.input-part input:is(:focus,:valid){
-
-}
+.input-part input:is(:)
 .input-part .separator{
     height: 1px;
     width: 100%;
@@ -94,74 +88,3 @@ header i{
     background: #43AFFC;
 }
 
-.wrapper .weather-part{
-    margin: 30px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.weather-part img{
-    max-width: 125px;
-}
-.weather-part .temp{
-    display: flex;
-    font-size: 72px;
-    font-weight: 500;
-}
-.weather-part .temp .numb{
-    font-weight: 600;
-}
-.weather-part .temp .deg{
-    font-size: 40px;
-    margin: 10px 5px 0 0;
-    display: block;
-}
-.weather-part .weather{
-    font-size: 21px;
-    text-align: center;
-    margin: -5px 20px 15px;
-}
-.weather-part .location{
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    margin-bottom: 30px;
-}
-.location i{
-    font-size: 22px;
-    margin-right: 5px;
-}
-.weather-part .bottom-details{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #bfbfbf;
-    justify-content: space-between;
-}
-.bottom-details .column{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.column i{
-    color: #43AFFC;
-    font-size: 40px;
-}
-.column.humidity{
-    border-left: 1px solid #bfbfbf;
-}
-.details .temp, .humidity span{
-    font-size: 18px;
-    font-weight: 500;
-}
-.details .temp .deg{
-    margin: 0;
-    font-size: 17px;
-    padding: 0 2px 0 1px;
-}
-.details p{
-    font-size: 14px;
-    margin-top: -6px;
-}

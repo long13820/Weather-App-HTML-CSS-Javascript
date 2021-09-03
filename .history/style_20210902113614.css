@@ -136,8 +136,8 @@ header i{
     width: 100%;
     display: flex;
     align-items: center;
-    border-top: 1px solid #bfbfbf;
-    justify-content: space-between;
+    border-top: 1px solid #;
+    justify-content: center;
 }
 .bottom-details .column{
     width: 100%;

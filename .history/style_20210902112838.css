@@ -120,48 +120,5 @@ header i{
 .weather-part .weather{
     font-size: 21px;
     text-align: center;
-    margin: -5px 20px 15px;
-}
-.weather-part .location{
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    margin-bottom: 30px;
-}
-.location i{
-    font-size: 22px;
-    margin-right: 5px;
-}
-.weather-part .bottom-details{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #bfbfbf;
-    justify-content: space-between;
-}
-.bottom-details .column{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.column i{
-    color: #43AFFC;
-    font-size: 40px;
-}
-.column.humidity{
-    border-left: 1px solid #bfbfbf;
-}
-.details .temp, .humidity span{
-    font-size: 18px;
-    font-weight: 500;
-}
-.details .temp .deg{
-    margin: 0;
-    font-size: 17px;
-    padding: 0 2px 0 1px;
-}
-.details p{
-    font-size: 14px;
-    margin-top: -6px;
+    margin: -5px ;
 }
